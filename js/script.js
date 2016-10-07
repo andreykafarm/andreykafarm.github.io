@@ -415,7 +415,7 @@ $document.ready(function () {
   if (plugins.rdGoogleMaps.length) {
     var i;
 
-    $.getScript("//maps.google.com/maps/api/js?sensor=false&libraries=geometry,places&v=3.7", function () {
+    $.getScript("//maps.google.com/maps/api/js?key=AIzaSyAcfj5oPYdVrl5T3FUHaSLacQcIVj9Zr_Y&sensor=false&libraries=geometry,places&v=3.7", function () {
       var head = document.getElementsByTagName('head')[0],
           insertBefore = head.insertBefore;
 
@@ -1698,4 +1698,3 @@ $document.ready(function () {
     });
   }
 });
-
